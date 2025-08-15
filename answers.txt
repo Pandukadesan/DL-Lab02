@@ -1,0 +1,25 @@
+#Q2
+
+Hiiden Units                 Accuracy
+
+1				67.5%
+2				67.25%
+3				90.75%
+4				90.5%
+5				91.25%
+20				90.0%
+50				90.25%
+
+1-2 models - accuracy is low network under flitting
+
+3-5 models - network learn the patterns good balance
+
+20-50 models - accuracy starts to decrease network may start overfitting(extra nodes aren't helping much)
+
+
+When we add more hidden nodes, the model learns better and the accuracy goes up. But if we add too many, it doesn’t help much and can even make accuracy slightly worse. Small layers can’t learn enough, medium layers work best, and very large layers aren’t always better.
+
+
+
+
+
